@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./css/masterpage.css">
+<link rel="stylesheet" href="./js/home.js">
+</head>
+<body>
+<h1>Click for SignUp</h1>
+<button onclick="document.getElementById('click1').style.display='block'">Sign Up</button>
+<div id="click1" class="contentpage">
+<form class="contentpage-content" action="/action_page.php">
+<div class="container">
+<h1>Sign Up</h1>
+<p>Please, Fill the below entries</p>
+<label for="name"><b>Name</b></label>
+<input type="text" placeholder="Name" name="name" required>
+
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Email" name="email" required>
+
+<label for="phone"><b>Phone</b></label>
+<input type="text" placeholder="Phone" name="phone" required>
+
+<label for="address"><b>Address</b></label>
+<input type="text" placeholder="Address" name="address" required>
+<br>   
+<label for="gender"><b>Gender</b></label>
+
+<input type="radio" name="gender" required> Male
+<input type="radio" name="gender"> Female
+<br>
+<br>
+<label for="pswd"><b>Password</b></label>
+<input type="password" placeholder="Password" name="pswd" required>
+<button type="button" onclick="document.getElementById('click1').style.display='none'" class="cancelbtn">Cancel</button>
+<button type="submit" class="signupbtn">Sign Up</button>
+</div>
+</form>
+</div>
+</body>
+</html>

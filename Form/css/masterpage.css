@@ -1,0 +1,70 @@
+ 
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 17px 0;
+  display: inline-block;
+  border: none;
+  background: lightgrey;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: lightgrey;
+  outline: none;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  }
+
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 20px 20px;
+
+}
+
+.cancelbtn, .signupbtn {
+background-color:green;
+  float: left;
+  width: 30%;
+margin:30px;
+}
+
+.container {
+  padding: 16px;
+}
+
+.contentpage {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: lightgreen;
+  padding-top: 50px;
+}
+
+
+.contentpage-content {
+  background-color: white;
+  margin: 5% auto 15% auto; 
+  border: 1px solid black;
+  width: 80%; 
+}
+
+
+ 
